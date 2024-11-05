@@ -11,7 +11,7 @@ resource "local_file" "file1" {
     filename = "hello.txt"
 }
 
-resource "local_file" "file2" {
-    content  = "Hello World 2!"
+resource "local_file" "file3" {
+    content  = "Hello World 3!"
     filename = "hello.2txt"
 }
